@@ -1,0 +1,528 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  overflow-x: hidden;
+ }
+
+ body {
+   overflow-y: hidden;
+ }
+
+ @font-face {
+   font-family: 'blackJack';
+   src: url(fonts/BlackJack.otf);
+ }
+
+/* Header content style */
+
+.header {
+  z-index: -1;
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-image: url(images/header-bg.png);
+}
+
+.container {
+  width: 100% !important;
+}
+
+.header-text {
+  text-align: right;
+  margin-right: 156px;
+}
+
+.navbar {
+  margin: 0px 156px;
+}
+
+.navbar-light {
+  background:transparent !important;
+  background-image:none !important;
+  border-color:transparent !important;
+  box-shadow:none !important;
+}
+
+.navbar-brand {
+  margin-top: -12px;
+}
+
+.navbar-toggler {
+  border: none !important;
+  margin-top: 26px;
+  outline: none !important;
+}
+
+/* Set z-index for sections */
+
+#section-1 {
+  z-index: 0;
+}
+
+#section-2 {
+  background-color: white;
+  z-index: 1;
+}
+
+.section-grey {
+  background-color: #f4f4f4;
+}
+
+.section {
+  position: relative;
+  height: 650px;
+}
+
+#banner-header {
+  font-family: 'blackJack';
+  font-size: 70px;
+  margin-top: 38px;
+  color: rgb(255, 255, 255);
+}
+
+#banner-subtext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  margin-top: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* Section 1 contents */
+
+#section-1-title {
+  font-family: 'Raleway', sans-serif;
+  color: #7a7a7a;
+  position: relative;
+  top: 140px;
+  font-size: 40px;
+  margin-left: 160px;
+}
+
+.section-1-desc {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: #7e7e7e;
+  position: relative;
+  top: 171px;
+  margin-left: 160px;
+  max-width: 550px;
+}
+
+#quote {
+  position: relative;
+  top: 171px;
+  margin-left: 160px;
+  max-width: 550px;
+  padding-left: 18px;
+  border-left: 6px solid #4eacdd;
+}
+
+#hello-btn {
+  margin-left: 160px;
+  margin-top: 226px;
+  border: 3px solid #14af8f;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  color: #14af8f;
+  height: 54px;
+  width: 169px;
+  transition: 0.1s;
+  opacity: 0.8;
+  cursor: pointer;
+  outline: none;
+}
+
+  #hello-btn:hover {
+    opacity: 1;
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    background-color: #14af8f;
+  }
+
+  #hello-btn img {
+    margin-left: 10px;
+  }
+
+/* Section 2 content style */
+
+#section-2 {
+  background-color: white;
+}
+
+#section-2-title {
+  color: #545454;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+#section-2-content {
+  position: relative;
+  float: right;
+  margin-right: -174px;
+  margin-top: 104px;
+}
+
+#section-2-desc {
+  max-width: 383px;
+  margin-top: 38px;
+  color: #474e5d;
+}
+
+#devices {
+  transition: 0.2s;
+}
+
+#dribble-btn {
+  height: 53px;
+  width: 220px;
+  background-color: white;
+  border: 3px solid #ea4c89;
+  color: #ea4c89;
+  cursor: pointer;
+  outline: none;
+  margin-top: 27px;
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+#dribble-btn img {
+  margin-left: 5px;
+}
+
+  #dribble-btn:hover {
+    opacity: 1;
+    border-color: white;
+    color: white;
+    background-color: #ea4c89;
+  }
+
+/* Small section styles */
+
+#section-small {
+  text-align: center;
+  position: absolute;
+  height: 325px;
+  z-index: 3;
+  width: 100%;
+  background-size: cover;
+  background-image: url(images/green-bg.png);
+}
+
+  #section-small h1 {
+    font-size: 40px;
+    font-family: 'Raleway';
+    margin-top: 95px;
+    color: white;
+  }
+
+#beer-btn {
+  outline: none;
+  font-size: 15px;
+  margin-top: 22px;
+  font-family: 'Raleway';
+  height: 53px;
+  width: 220px;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: #13c3ae;
+  transition: 0.2s;
+}
+
+  #beer-btn:hover {
+    opacity: 1;
+    border-color: #13c3ae;
+    background-color: white;
+    color: #13c3ae;
+  }
+
+  #beer-btn img {
+    margin-left: 20px;
+  }
+
+/* Section 3 styles */
+
+#section-3 {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  height: 975px;
+  text-align: center;
+}
+
+#media-btns {
+  position: relative;
+  margin-top: 552px;
+}
+
+  #media-btns ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #media-btns ul li {
+    opacity: 0.6;
+    transition: 0.2s;
+    float: none;
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none;
+  }
+
+  #media-btns ul li:hover {
+    opacity: 1;
+  }
+
+#mail-form {
+  margin-top: 57px;
+  display: block;
+}
+
+#mail-form input {
+  font-size: 16px;
+  color: #d3d3d3;
+  outline: none;
+  padding-left: 20px;
+  margin-left: 22px;
+  width: 180px;
+  border-radius: 10px 0px 0px 10px;
+  border: thin solid white;
+  height: 43px;
+}
+
+#input-label {
+  color: #545454;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#mail-form button {
+  outline: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+  border: thin solid white;
+  width: 40px;
+  height: 43px;
+}
+
+/* Footer styles */
+
+.footer {
+  height: 101px;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin-top: 249px;
+  z-index: 4;
+}
+
+  .footer p {
+    font-size: 12px;
+    position: relative;
+    top: 44px;
+  }
+
+  .footer a {
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 40px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-right: 59px;
+  }
+
+  .footer a img {
+    margin-top: 8px;
+  }
+
+/* Device PNG styles */
+
+#iphone5 {
+  margin-left: 217px;
+  margin-top: -40px;
+}
+
+#ipad {
+  transition: 0.3s;
+  float: right;
+  margin-right: -74px;
+  margin-top: -77px;
+}
+
+#macbook {
+  position: absolute;
+  margin-top: 486px;
+}
+
+#imac {
+  position: absolute;
+  margin-left: 106px;
+  margin-top: 286px;
+  z-index: -1;
+}
+
+#ipad-small {
+  position: absolute;
+  margin-left: 454px;
+  margin-top: 448px;
+}
+
+#iphone5-small {
+  position: absolute;
+  margin-left: 591px;
+  margin-top: 545px;
+}
+
+#ipad-mini {
+  margin-top: 498px;
+  margin-left: 640px;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Button styles */
+
+#download-btn {
+  height: 53px;
+  width: 169px;
+  background-color: #63c2e7;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+  margin-top: 30px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.1s;
+  outline: none;
+}
+
+  #download-btn:hover {
+    opacity: 1;
+  }
+
+  #download-icon {
+    margin-left: 6px;
+  }
+
+/* Media queries */
+
+@media (max-width: 970px) {
+  .navbar {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .header-text {
+    margin-right: auto;
+  }
+
+  #iphone5 {
+    margin-left: auto;
+    margin-top: 0px;
+  }
+
+  #section-1-title, .section-1-desc, #quote, #hello-btn {
+    margin-left: 20px;
+  }
+
+  #ipad {
+    float: right;
+    margin-right: -74px;
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 1148px) {
+  #devices {
+    position: absolute;
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 1064px) {
+  #ipad {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 914px) {
+  #ipad, #ipad-mini, #macbook, #imac, #ipad-small, #iphone5-small {
+    /*visibility: hidden;*/
+  }
+
+  #iphone5 {
+    margin-top: 20px;
+  }
+
+  #hello-btn {
+    margin-top: 200px;
+  }
+
+}
+
+@media (max-width: 564px) {
+  #devices {
+    visibility: hidden;
+  }
+
+  #section-2-content {
+    position: relative;
+    float: left;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: -300px;
+  }
+
+  #section-2-desc {
+    max-width: 383px;
+    margin-top: 38px;
+    color: #474e5d;
+  }
+}
+
+@media (max-width: 550px) {
+  #ipad {
+    visibility: hidden;
+  }
+
+  #section-2-content {
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 529px) {
+  #section-2-content {
+    margin-top: -600px;
+  }
+}
+
+@media (max-width: 457px) {
+  #mail-form input {
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    width: 60%;
+    height: 43px;
+  }
+
+  #input-label {
+    width: 100%;
+  }
+
+  #mail-form button {
+    width: 40px;
+    height: 43px;
+  }
+
+  .footer a {
+    margin-top: -40px;
+    margin-right: 59px;
+  }
+}
