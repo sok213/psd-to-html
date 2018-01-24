@@ -5,6 +5,13 @@ html, body {
   overflow-x: hidden;
  }
 
+a {
+  color: white !important;
+}
+
+a:hover {
+}
+
  body {
    overflow-y: hidden;
  }
