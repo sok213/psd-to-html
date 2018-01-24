@@ -528,6 +528,22 @@ a:hover {
     height: 43px;
   }
 
+  #section-1-title {
+    top: 50px;
+  }
+
+  .section-1-desc {
+    top: 70px;
+  }
+
+  #quote {
+    top: 100px;
+  }
+
+  #hello-btn {
+    margin-top: 120px;
+  }
+
   .footer a {
     margin-top: -40px;
     margin-right: 59px;
